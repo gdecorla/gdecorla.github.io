@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treasure Hunt</title>
+    <link rel="stylesheet" href="treasurehunt.css">
+  </head>
+  <body>
+    <h1>Treasure Hunt</h1>
+    <h2>Find the treasure not the BOMB!</h2>
+    <div id="treasure-chest">
+    <img id="huge-treasurechest" src=https://pixnio.com/free-images/2017/04/13/2017-04-13-09-18-13.jpg>
+  </div>
+    <h2>Best of luck! </h2>
+    <ul>
+      <li>Click the boxes to reveal what's on the map</li>
+      <li>If you click on the bomb, lose</li>
+      <li>If you click the treasure, you win</li>
+    </ul>
+    <table>
+      <div id"table1">
+      <tr>
+        <td id='0' onclick="treasure(0)">?</td>
+        <td id='1' onclick="treasure(1)">?</td>
+        <td id='2' onclick="treasure(2)">?</td>
+      </tr>
+      <tr>
+        <td id='3' onclick="treasure(3)">?</td>
+        <td id='4' onclick="treasure(4)">?</td>
+        <td id='5' onclick="treasure(5)">?</td>
+      </tr>
+      <tr>
+        <td id='6' onclick="treasure(6)">?</td>
+        <td id='7' onclick="treasure(7)">?</td>
+        <td id='8' onclick="treasure(8)">?</td>
+      </tr>
+    </div>
+    </table>
+    <button type="button" onclick="location.reload()">Restart Game</button>
+    <footer> <a href="https://www.crazygames.com/" target="_blank">For more fun games, click here!</footer>
+    <script type="text/javascript" src="treasure.js">
+    </script>
+  </body>
+</html>
